@@ -425,16 +425,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3440228832720950118, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1004728757}
+    - target: {fileID: 3440228832720950118, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
       propertyPath: velocity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3440228832720950118, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3487068460028661751, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.7810755
+      value: -8.344
       objectReference: {fileID: 0}
     - target: {fileID: 3487068460028661751, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.83
+      value: -0.293
       objectReference: {fileID: 0}
     - target: {fileID: 3487068460028661751, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -468,15 +476,73 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3487068460028661752, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6736643083359395418, guid: c397131caece4314e90d5028a812a787, type: 3}
     - target: {fileID: 3487068460028661754, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8814141059296468861, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
+      propertyPath: m_Size.x
+      value: 1.4804511
+      objectReference: {fileID: 0}
+    - target: {fileID: 8814141059296468861, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
+      propertyPath: m_Size.y
+      value: 1.9543295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8814141059296468861, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0028207302
+      objectReference: {fileID: 0}
+    - target: {fileID: 8814141059296468861, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.008462101
+      objectReference: {fileID: 0}
+    - target: {fileID: 8814141059296468861, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 8814141059296468861, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.93
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3487068460028661754, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1004728757}
   m_SourcePrefab: {fileID: 100100000, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
+--- !u!1 &1004728752 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3487068460028661754, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
+  m_PrefabInstance: {fileID: 859479581}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1004728757
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004728752}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 19beb66c21bea9645a8039153f419a57, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1876987516
 PrefabInstance:
   m_ObjectHideFlags: 0

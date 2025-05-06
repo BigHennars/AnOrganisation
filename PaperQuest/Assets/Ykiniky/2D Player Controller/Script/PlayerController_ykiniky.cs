@@ -8,6 +8,7 @@ namespace YkinikY
     {
         [Header("(c) Ykiniky")]
         [Header("Movement")]
+        public Animator animator;
         public bool canMove = true;
         public bool canJump = true;
         public float velocity = 1;
@@ -68,9 +69,11 @@ namespace YkinikY
             // Contoller definitions
             if (Input.GetButton("Jump") && canJump)
             {
+                
                 canJump = false;
                 GetComponent<Rigidbody2D>().linearVelocity = new Vector2(GetComponent<Rigidbody2D>().linearVelocity.x, 8);
             }
+
             transform.position += 5 * Time.deltaTime * velocity * Vector3.right * Input.GetAxis("Horizontal");
             if (Input.GetAxis("Horizontal") == 1)
             {
@@ -80,6 +83,8 @@ namespace YkinikY
             {
                 GetComponent<SpriteRenderer>().flipX = true;
             }
+
+            animator.SetBool("Walking", !canJump);
 
         }
         private void OnCollisionEnter2D(Collision2D collision)

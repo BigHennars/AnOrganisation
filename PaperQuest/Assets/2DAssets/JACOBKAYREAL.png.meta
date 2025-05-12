@@ -237,7 +237,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      JACOBKAYREAL_0: 6736643083359395418
+      JACOBKAYREAL_1: -1920623218037860809
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,6 +1,4 @@
 using System.Collections;
-using JetBrains.Annotations;
-using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
@@ -17,7 +15,6 @@ public class DroppedItem : MonoBehaviour
     public Item item;
     public bool pickedUp = false;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         if (autoStart && item != null)
@@ -25,6 +22,7 @@ public class DroppedItem : MonoBehaviour
             Initialize(item);
         }
     }
+
     public void Initialize(Item item)
     {
         this.item = item;

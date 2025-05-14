@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-
 public class InventoryUI : MonoBehaviour
 {
     [Header("Prefabs")]

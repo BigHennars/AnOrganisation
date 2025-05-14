@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78f5df8450fde5641b7ba5329f624785, type: 3}
+  m_Script: {fileID: 11500000, guid: bd2bec453adaac846b5d8c8117b0da27, type: 3}
   m_Name: Coin
   m_EditorClassIdentifier: 
-  id: Coin
-  description: A Valuable Object
+  id: Gold Coin
+  description: Valuable
   icon: {fileID: 21300000, guid: 5ed5157cf45e6ee409511594fb89377b, type: 3}
   prefab: {fileID: 0}

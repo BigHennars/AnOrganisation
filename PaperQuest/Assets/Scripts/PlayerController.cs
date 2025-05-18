@@ -64,14 +64,14 @@ namespace YkinikY
             if ((Input.GetKey(KeyCode.UpArrow) & canJump) || (Input.GetKey(KeyCode.W) & canJump))
             {
                 canJump = false;
-                GetComponent<Rigidbody2D>().linearVelocity = new Vector2(GetComponent<Rigidbody2D>().linearVelocity.x, 16);
+                GetComponent<Rigidbody2D>().linearVelocity = new Vector2(GetComponent<Rigidbody2D>().linearVelocity.x, 17);
             }
             // Contoller definitions
             if (Input.GetButton("Jump") && canJump)
             {
                 
                 canJump = false;
-                GetComponent<Rigidbody2D>().linearVelocity = new Vector2(GetComponent<Rigidbody2D>().linearVelocity.x, 16);
+                GetComponent<Rigidbody2D>().linearVelocity = new Vector2(GetComponent<Rigidbody2D>().linearVelocity.x, 17);
             }
 
             transform.position += 5 * Time.deltaTime * velocity * Vector3.right * Input.GetAxis("Horizontal");
@@ -106,11 +106,11 @@ namespace YkinikY
         {
             if (collision.name == "Elevator")
             {
-                GetComponent<Rigidbody2D>().linearVelocity = new Vector2(GetComponent<Rigidbody2D>().linearVelocity.x, 6);
+                GetComponent<Rigidbody2D>().linearVelocity = new Vector2(GetComponent<Rigidbody2D>().linearVelocity.x, 1);
             }
             if (collision.name == "Down_elevator")
             {
-                GetComponent<Rigidbody2D>().linearVelocity = new Vector2(GetComponent<Rigidbody2D>().linearVelocity.x, -4);
+                GetComponent<Rigidbody2D>().linearVelocity = new Vector2(GetComponent<Rigidbody2D>().linearVelocity.x, 1);
             }
         }
         private void OnCollisionStay2D(Collision2D collision)

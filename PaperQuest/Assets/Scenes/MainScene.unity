@@ -586,7 +586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 464957296}
   m_Layer: 0
-  m_Name: GroundFloor
+  m_Name: FirstFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1580,7 +1580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 866160505}
   m_Layer: 0
-  m_Name: FirstFloor
+  m_Name: SecondFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1824,7 +1824,7 @@ GameObject:
   m_Component:
   - component: {fileID: 998852879}
   m_Layer: 0
-  m_Name: SecondFloor
+  m_Name: ThirdFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2116,7 +2116,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6075711091997901324, guid: 31c8a41b9478662459deee040ebd03c8, type: 3}
       propertyPath: m_Name
-      value: SecondFloorDoor
+      value: ThirdFloorDoor
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2361,7 +2361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6381554302613400147, guid: 1893780218e840f41977f611e13469a8, type: 3}
       propertyPath: m_Name
-      value: SecondFloorDoorFrame
+      value: ThirdFloorDoorFrame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

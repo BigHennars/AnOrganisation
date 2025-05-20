@@ -3,37 +3,30 @@ using UnityEngine.SceneManagement;
 
 public class ChestTrigger : MonoBehaviour
 {
-    public AudioClip pickupSound;         // Drag in the key sound
+    public string nextSceneName;        // Name of the scene to load
+    public AudioClip pickupSound;       // Sound played on pickup
 
-    private AudioSource audioSource;
+    private bool hasTriggered = false;  // Prevents multiple triggers
 
-    void Start()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        audioSource = GetComponent<AudioSource>();
-    }
+        if (hasTriggered) return;
 
-    private void GameOver(Collider2D collision)
-    {
         if (collision.CompareTag("Player"))
         {
-            // Play sound
+            hasTriggered = true;
+
+            // Play sound at key position
             if (pickupSound != null)
-                audioSource.PlayOneShot(pickupSound);
+            {
+                AudioSource.PlayClipAtPoint(pickupSound, transform.position);
+            }
 
-            // disable collider so it can't be collected again
-            GetComponent<Collider2D>().enabled = false;
+            // Hide the key immediately
+            gameObject.SetActive(false);
 
-            // disable sprite after animation ends
-            Invoke(nameof(HideChest), 0.5f);
-
-            // loads the next scene
-            SceneManager.LoadSceneAsync(2);
+            // Load the specified scene
+            SceneManager.LoadScene(nextSceneName);
         }
     }
-
-    void HideChest()
-    {
-        GetComponent<SpriteRenderer>().enabled = false;
-    }
-
 }

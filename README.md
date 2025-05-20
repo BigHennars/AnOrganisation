@@ -34,5 +34,5 @@ Instagram
 [Unity API](https://docs.unity3d.com/6000.1/Documentation/ScriptReference/index.html)
 [This 2D player controller was edited for our game](https://assetstore.unity.com/packages/2d/characters/2d-player-controller-287744)
 Quoc Tien Pham (qtpham@swin.edu.au) wrote the initial jump animation code for the player controller/sprite.
-[ChatGPT was used to fix broken KeyTrigger and ChestTrigger scripts](https://chatgpt.com/?model=auto) 
+[ChatGPT was used to correct issues with KeyTrigger, ChestTrigger and SceneMusicManager scripts](https://chatgpt.com/?model=auto) 
 [Game music was downloaded from this site](https://pixabay.com)

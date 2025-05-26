@@ -1,8 +1,8 @@
 ### The Team ###
 Name: An Organisation
 Members:
-Thomas Wakelin (105045064)
-Henry Lee (105335419)
+Thomas Wakelin (105045064) - all the 2D art in game.
+Henry Lee (105335419) - Worked in engine, sound and programming.
 
 ### Controls ###
 The game requires the use of a keyboard and a mouse.

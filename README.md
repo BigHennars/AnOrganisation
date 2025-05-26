@@ -36,3 +36,6 @@ Instagram
 Quoc Tien Pham (qtpham@swin.edu.au) wrote the initial jump animation code for the player controller/sprite.
 [ChatGPT was used to correct issues with KeyTrigger, ChestTrigger and SceneMusicManager scripts](https://chatgpt.com/?model=auto) 
 [Game music was downloaded from this site](https://pixabay.com)
+
+### NOTES ###
+The player can wall jump using the momentum they have gained from their previous jump.

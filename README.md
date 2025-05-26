@@ -27,7 +27,7 @@ GitHub Desktop
 [TeamGantt](https://www.teamgantt.com/)
 
 ### Used Communication Services ###
-Discord
+Discord \n
 Instagram
 
 ### Used Resources ###
